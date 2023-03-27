@@ -14,8 +14,8 @@ document.fonts.add(fontFace)
 
 // Create the game renderer and stage
 const app = new PIXI.Application({
-  width: 800,
-  height: 600,
+  width: 400,
+  height: 300,
   view: document.getElementById("game-container") as HTMLCanvasElement
 })
 
