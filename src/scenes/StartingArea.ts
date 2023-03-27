@@ -33,7 +33,6 @@ function room(width: number, height: number): PIXI.Container {
     }
   }
 
-  room.scale.set(3)
   return room
 }
 
