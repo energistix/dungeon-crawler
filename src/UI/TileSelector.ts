@@ -6,7 +6,7 @@ type pos = `${number}-${number}`
 
 export default class TileSelector extends PIXI.Container {
   private selectedPos: pos = "0-0"
-  private outlineFilter = new OutlineFilter(2, 0x00ff00)
+  private outlineFilter = new OutlineFilter(2, 0xffffff)
 
   constructor(
     private app: PIXI.Application,
