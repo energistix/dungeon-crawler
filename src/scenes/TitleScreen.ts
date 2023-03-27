@@ -53,6 +53,6 @@ export default class TitleScreen extends PIXI.Container {
 
   private async onMapMakerButtonClicked() {
     super.destroy()
-    this.app.stage.addChild(new MapMaker(this.app))
+    this.app.stage.addChild(new MapMaker())
   }
 }

@@ -9,7 +9,6 @@ export default class TileSelector extends PIXI.Container {
   private outlineFilter = new OutlineFilter(2, 0xffffff)
 
   constructor(
-    private app: PIXI.Application,
     private tileSetManager: TileSetManager,
     private config: Record<pos, string>
   ) {
